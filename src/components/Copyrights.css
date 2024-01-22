@@ -1,0 +1,16 @@
+/* Copyright.css */
+
+.copyrights {
+    background-color: #f1f1f1; /* Set the background color as needed */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center the content */
+  }
+  .copyrights h2 {
+    color: #333; /* Set the text color as needed */
+    font-size: 25px; /* Set the font size as needed */
+  }
+  .copyrights h3 {
+    color: #333; /* Set the text color as needed */
+    font-size: 20px; /* Set the font size as needed */
+  }
+  

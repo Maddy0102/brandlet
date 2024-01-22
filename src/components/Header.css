@@ -1,0 +1,9 @@
+/* Header.css */
+
+.greeting {
+    text-align: center;
+    color: #333; /* Adjust the color as needed */
+    font-size: 24px; /* Adjust the font size as needed */
+    /* Add any other styles you want for the greeting component */
+  }
+  
