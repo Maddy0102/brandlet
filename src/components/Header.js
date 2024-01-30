@@ -8,9 +8,9 @@ import Button from "@mui/material/Button";
 
 function Header() {
   return ( 
-    <AppBar position="static" sx={{ backgroundColor: '#FFC000' }}>
+    <AppBar position="static" sx={{ backgroundColor: '#FFD113' }}>
       <Toolbar>
-        <Typography variant="h3" component="div" sx={{ flexGrow: 1, color: '#DDAC17', fontFamily: 'Cambria,serif' }}>
+        <Typography variant="h3" component="div" sx={{ flexGrow: 1, color: '#000000', fontFamily: 'Raleway, sans-serif' }}>
           <b>BRANDLET</b>
         </Typography>
         <Button  color="inherit" sx={{ color: '#FFFFFF' }}>

@@ -1,10 +1,11 @@
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  /* margin: auto; */
   height: 5%;
 }
 
@@ -43,7 +44,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -89,8 +90,12 @@
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Additional styles for the image overlay */
@@ -108,6 +113,30 @@
   margin-bottom: 480px;
 }
 
+.slide-id-0-title {
+  color: #ffffff; /* Customize the color as needed */
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.slide-button {
+  padding: 8px 15px;
+  font-size: 20px;
+  color: rgb(247, 210, 0);
+  border: 4;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 90px;
+  background-color: transparent; /* Adjust margin as needed */
+}
+
+.slide-id-1-title {
+  color: #fffefe; /* Customize the color as needed */
+  font-size: 18px;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
 /* Styles for the second overlay text */
 .mySlides .overlay-text-p {
   color: rgb(252, 235, 3);
@@ -115,6 +144,7 @@
   padding: 8px 12px;
   margin-bottom: 550px;
 }
+
 .overlay-button {
   padding: 8px 15px;
   font-size: 20px;
