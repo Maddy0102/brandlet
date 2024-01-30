@@ -1,97 +1,274 @@
 /* wedo.css */
 
 .container-wedo {
-    background-color: rgb(250, 250, 0);
-    padding: 20px;
-  }
-  
-  .title {
-    text-align: center;
-  }
-  
-  .subtitle {
-    text-align: center;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-right: 75px;
-    margin-left: 75px;
-  }
-  
-  .column-wedo1,
-  .column-wedo2,
-  .column-wedo3,
-  .column-wedo4,
-  .column-wedo5,
-  .column-wedo6,
-  .column-wedo7,
-  .column-wedo8,
-  .column-wedo9,
-  .column-wedo10 {
-    flex: 1;
-    max-width: 300px;
-    margin: 20px;
-  }
-  
-  .card1,
-  .card2,
-  .card3,
-  .card4,
-  .card5,
-  .card6,
-  .card7,
-  .card8,
-  .card9,
-  .card10 {
-    background-color: rgb(250, 250, 0);
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Specific styles for each card */
-  .card1 h3 {
-    color: #3498db;
-  }
-  
-  .card2 h3 {
-    color: #e74c3c;
-  }
-  
-  .card3 h3 {
-    color: #2ecc71;
-  }
-  
-  .card4 h3 {
-    color: #f39c12;
-  }
-  
-  .card5 h3 {
-    color: #9b59b6;
-  }
-  
-  .card6 h3 {
-    color: #1abc9c;
-  }
-  
-  .card7 h3 {
-    color: #e67e22;
-  }
-  
-  .card8 h3 {
-    color: #34495e;
-  }
-  
-  .card9 h3 {
-    color: #d35400;
-  }
-  
-  .card10 h3 {
-    color: #c0392b;
-  }
-  
+  background-color: #F0B801;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+.column-wedo1,
+.column-wedo2,
+.column-wedo3,
+.column-wedo4,
+.column-wedo5,
+.column-wedo6,
+.column-wedo7,
+.column-wedo8,
+.column-wedo9,
+.column-wedo10 {
+  flex: 1;
+  max-width: 300px;
+  margin: 20px;
+}
+
+/* Styles for card1 */
+.card1 {
+  display: flex;
+  align-items: center;
+}
+
+.card1 .card-header-1 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card1 .card-content-1 {
+  flex-grow: 1;
+}
+
+.card1 h3 {
+  color: #ffffff;
+}
+
+.card1 p {
+  color: #ffffff;
+}
+
+/* Repeat the above styles for card2, card3, and so on... */
+.card2 {
+  display: flex;
+  align-items: center;
+}
+
+.card2 .card-header-2 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card2 .card-content-2 {
+  flex-grow: 1;
+}
+
+.card2 h3 {
+  color: #ffffff;
+}
+
+.card2 p {
+  color: #ffffff;
+}
+
+.card3 {
+  display: flex;
+  align-items: center;
+}
+
+.card3 .card-header-3 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card3 .card-content-3 {
+  flex-grow: 1;
+}
+
+.card3 h3 {
+  color: #ffffff;
+}
+
+.card3 p {
+  color: #ffffff;
+}
+
+.card4 {
+  display: flex;
+  align-items: center;
+}
+
+.card4 .card-header-4 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card4 .card-content-4 {
+  flex-grow: 1;
+}
+
+.card4 h3 {
+  color: #ffffff;
+}
+
+.card4 p {
+  color: #ffffff;
+}
+
+.card5 {
+  display: flex;
+  align-items: center;
+}
+
+.card5 .card-header-5 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card5 .card-content-5 {
+  flex-grow: 1;
+}
+
+.card5 h3 {
+  color: #ffffff;
+}
+
+.card5 p {
+  color: #ffffff;
+}
+
+.card6 {
+  display: flex;
+  align-items: center;
+}
+
+.card6 .card-header-6 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card6 .card-content-6 {
+  flex-grow: 1;
+}
+
+.card6 h3 {
+  color: #ffffff;
+}
+
+.card6 p {
+  color: #ffffff;
+}
+
+.card7 {
+  display: flex;
+  align-items: center;
+}
+
+.card7 .card-header-7 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card7 .card-content-7 {
+  flex-grow: 1;
+}
+
+.card7 h3 {
+  color: #ffffff;
+}
+
+.card7 p {
+  color: #ffffff;
+}
+
+.card8 {
+  display: flex;
+  align-items: center;
+}
+
+.card8 .card-header-8 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card8 .card-content-8 {
+  flex-grow: 1;
+}
+
+.card8 h3 {
+  color: #ffffff;
+}
+
+.card8 p {
+  color: #ffffff;
+}
+
+.card9 {
+  display: flex;
+  align-items: center;
+}
+
+.card9 .card-header-9 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card9 .card-content-9 {
+  flex-grow: 1;
+}
+
+.card9 h3 {
+  color: #ffffff;
+}
+
+.card9 p {
+  color: #ffffff;
+}
+
+.card10 {
+  display: flex;
+  align-items: center;
+}
+
+.card10 .card-header-10 img {
+  width: 40px;
+  margin-right: 15px;
+  margin-bottom: 140px;
+}
+
+.card10 .card-content-10 {
+  flex-grow: 1;
+}
+
+.card10 h3 {
+  color: #ffffff;
+}
+
+.card10 p {
+  color: #ffffff;
+}
+
+/* Repeat the above styles for card3, card4, and so on... */
+
+/* Add styles for other cards as needed */
